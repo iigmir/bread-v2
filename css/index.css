@@ -1,0 +1,26 @@
+.navbox-main, .navlist {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navlist {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbox-list {
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navlist {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    li {
+        margin-right: 1rem;
+    }
+}
