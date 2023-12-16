@@ -3,24 +3,27 @@
     justify-content: space-between;
 }
 
-.navlist {
-    justify-content: space-between;
-    align-items: center;
+.navbox {
+    width: 100%;
 }
 
-.navbox-list {
-    margin: 0;
-    padding: 0;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.navlist {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    li {
-        margin-right: 1rem;
+.navbox.-upper.-centering  {
+    text-align: center;
+    .logo {
+        display: block;
+        margin: 0 auto;
     }
+}
+
+.navbox.-lower ul {
+    list-style: none;
+    margin: 0;
+    padding: 1rem;    
+}
+.navbox.-lower .navbox-list {
+    display: flex;
+    justify-content: space-between;
+}
+.navbox.-lower .navbox-list a {
+    text-decoration: none;
 }
