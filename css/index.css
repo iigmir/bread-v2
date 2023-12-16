@@ -51,8 +51,11 @@
     align-items: center;
 }
 .jumbotron .screen {
+    --title-colour: initial;
+    --shadow-colour: transparent;
     color: var(--title-colour);
     text-shadow: var(--shadow-colour) 1px 0 6px;
+    max-width: 480px;
 }
 .jumbotron .title {
     margin: 0;
@@ -70,6 +73,10 @@
 }
 
 /* Main intro */
-.main-intro {
-    /*  */
+.jumbotron.-intro {
+    --bg-url: url("../img/5256828656_4467b60d9a_o.jpg");
+}
+.jumbotron.-intro .screen {
+    --title-colour: azure;
+    --shadow-colour: goldenrod;
 }
