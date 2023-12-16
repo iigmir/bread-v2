@@ -27,3 +27,6 @@
 .navbox.-lower .navbox-list a {
     text-decoration: none;
 }
+.navbox.-lower .navbox-list li:hover a {
+    text-decoration: underline;
+}
