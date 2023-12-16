@@ -7,12 +7,15 @@
     width: 100%;
 }
 
-.navbox.-upper.-centering  {
-    text-align: center;
-    .logo {
-        display: block;
-        margin: 0 auto;
-    }
+.navbox.-upper {
+    height: 100%;
+}
+.navbox.-upper.inbody {
+    height: 0;
+}
+.navbox.-upper.-centering .logo {
+    display: block;
+    margin: 0 auto;
 }
 
 .navbox.-lower ul {
@@ -29,4 +32,44 @@
 }
 .navbox.-lower .navbox-list li:hover a {
     text-decoration: underline;
+}
+
+#main {
+    --article-height: 560px;
+}
+
+/* Jumbotron */
+.jumbotron {
+    background-image: var(--bg-url);
+    background-size: cover;
+    width: 100%;
+    height: var(--article-height);
+}
+.jumbotron.centering-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.jumbotron .screen {
+    color: var(--title-colour);
+    text-shadow: var(--shadow-colour) 1px 0 6px;
+}
+.jumbotron .title {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 1rem;
+}
+
+/* Heading jumbotron */
+.jumbotron.-heading {
+    --bg-url: url("../img/Home_made_sour_dough_bread.jpg");
+}
+.jumbotron.-heading .screen {
+    --title-colour: azure;
+    --shadow-colour: goldenrod;
+}
+
+/* Main intro */
+.main-intro {
+    /*  */
 }
