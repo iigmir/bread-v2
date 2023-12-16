@@ -98,9 +98,16 @@
     z-index: 1;
 }
 .footer .contact {
+    width: 100%;
     display: flex;
     height: var(--footer-height);
 }
 .footer .contact .card {
+    width: 50%;
+    margin: 1.2rem;
     padding: 1.2rem;
+}
+.footer .contact .card {
+    border-radius: 1rem;
+    background-color: rgba(255,228,196,0.78);
 }
