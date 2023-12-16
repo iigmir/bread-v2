@@ -20,3 +20,36 @@ body {
 .greatest-text { font-size: 4rem; }
 .smaller-text { font-size: 0.5rem; }
 .smallest-text { font-size: 0.2rem; }
+
+/* Upper navbox */
+.navbox.-upper {
+    height: 100%;
+}
+
+.navbox.-upper.inbody {
+    height: 0;
+}
+.navbox.-upper.-centering .logo {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Lower navbox and its navbox list */
+.navbox.-lower ul {
+    list-style: none;
+    margin: 0;
+    padding: 1rem 0;
+}
+.navbox.-lower .navbox-list {
+    width: 100%;
+}
+.navbox.-lower .navbox-list {
+    display: flex;
+    justify-content: space-between;
+}
+.navbox.-lower .navbox-list a {
+    text-decoration: none;
+}
+.navbox.-lower .navbox-list li:hover a {
+    text-decoration: underline;
+}
