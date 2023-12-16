@@ -1,15 +1,8 @@
-.navbox-main, .navlist {
-    display: flex;
-    justify-content: space-between;
-}
-
-.navbox {
-    width: 100%;
-}
-
+/* Upper navbox */
 .navbox.-upper {
     height: 100%;
 }
+
 .navbox.-upper.inbody {
     height: 0;
 }
@@ -18,10 +11,14 @@
     margin: 0 auto;
 }
 
+/* Lower navbox and its navbox list */
 .navbox.-lower ul {
     list-style: none;
     margin: 0;
-    padding: 1rem;    
+    padding: 1rem 0;
+}
+.navbox.-lower .navbox-list {
+    width: 100%;
 }
 .navbox.-lower .navbox-list {
     display: flex;
