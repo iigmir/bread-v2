@@ -86,4 +86,21 @@
 }
 .footer #map-bg {
     height: var(--footer-height);
+    z-index: -1;
+}
+.footer #map-bg .leaflet-control-container {
+    display: none;
+}
+.footer .contact {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.footer .contact {
+    display: flex;
+    height: var(--footer-height);
+}
+.footer .contact .card {
+    padding: 1.2rem;
 }
