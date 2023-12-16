@@ -77,6 +77,6 @@
     --bg-url: url("../img/5256828656_4467b60d9a_o.jpg");
 }
 .jumbotron.-intro .screen {
-    --title-colour: azure;
-    --shadow-colour: goldenrod;
+    --title-colour: black;
+    --shadow-colour: #daff55;
 }
