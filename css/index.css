@@ -77,3 +77,13 @@
     --title-colour: black;
     --shadow-colour: #daff55;
 }
+
+/* Footer */
+.footer {
+    --footer-height: 480px;
+    padding-bottom: 1rem;
+    position: relative;
+}
+.footer #map-bg {
+    height: var(--footer-height);
+}
