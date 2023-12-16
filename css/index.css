@@ -84,6 +84,8 @@
     padding-bottom: 1rem;
     position: relative;
 }
+
+/* Map */
 .footer #map-bg {
     height: var(--footer-height);
     z-index: -1;
@@ -91,6 +93,8 @@
 .footer #map-bg .leaflet-control-container {
     display: none;
 }
+
+/* Contact */
 .footer .contact {
     position: absolute;
     top: 0;
@@ -102,6 +106,8 @@
     display: flex;
     height: var(--footer-height);
 }
+
+/* Contact card */
 .footer .contact .card {
     width: 50%;
     margin: 1.2rem;
@@ -110,6 +116,11 @@
 .footer .contact .card {
     border-radius: 1rem;
     background-color: rgba(255,228,196,0.78);
+}
+
+/* Contact address */
+.footer .contact .address a {
+    color: navy;
 }
 
 /* Footer form */
