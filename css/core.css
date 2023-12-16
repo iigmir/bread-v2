@@ -7,24 +7,16 @@ body {
 
 .container {
     max-width: 960px;
-    &.-centering {
-        margin: 0 auto;
-    }
+}
+.container.-centering {
+    margin: 0 auto;
 }
 
-.text-center {
-    text-align: center;
-}
+.text-left { text-align: left; }
+.text-center { text-align: center; }
+.text-right { text-align: right; }
 
-.greater-text {
-    font-size: 2rem;
-}
-.greatest-text {
-    font-size: 4rem;
-}
-.smaller-text {
-    font-size: 0.5rem;
-}
-.smallest-text {
-    font-size: 0.2rem;
-}
+.greater-text { font-size: 2rem; }
+.greatest-text { font-size: 4rem; }
+.smaller-text { font-size: 0.5rem; }
+.smallest-text { font-size: 0.2rem; }
